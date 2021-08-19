@@ -1,0 +1,29 @@
+body{
+	font-family: 'Kaushan Script', cursive;
+}
+
+div.bg-image{
+	background: linear-gradient(to right,rgba(102,102,113,0.6),rgba(0,0,255,0.4)), url(../../assets/bg.jpg) no-repeat center center fixed;
+	height: 600px;
+}
+
+div.jumb-bg{
+	background: linear-gradient(to right,rgba(102,102,113,0.6),rgba(0,0,0,0.4)), url(../../assets/launch.jpg) no-repeat center  fixed;
+	height: 300px;
+}
+
+.desc{
+	letter-spacing: 7px;
+	line-height: 33px;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 480px) {
+	h3.head-text{
+		font-size: 70px;
+	}
+	.desc{
+		letter-spacing:3px;
+		margin-top: 20px;
+	}
+  }
